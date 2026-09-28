@@ -1,0 +1,19 @@
+{
+  "name": "turborepo-poi-map-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack Monorepo POI (Points of Interest) Management App with Turborepo, NestJS, SQLite, and React Leaflet",
+  "packageManager": "npm@11.9.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.4"
+  }
+}
